@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   background: #f2f2f2;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -36,4 +38,26 @@ button {
 
 button:hover {
   background: #5da0e7;
+}
+
+/* 📱 Mobile View */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 12px;
+  }
 }
